@@ -1,0 +1,275 @@
+/* CSS Document */
+@import url(https://fonts.googleapis.com/css?family=Glegoo:700);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+body {font-family: 'Glegoo', serif;text-align:center;}
+h1 {font-size:1.8em;color:black;padding:20px;padding-top:40px;}		
+h2{font-size:1.5em;margin:10px 0;}	
+p {font-size:0.8em;font-family:"Roboto", sans-serif; color:black;}	
+a {color:black;}
+#header {background-color:transparent;}
+.section {height:100vh;overflow:hidden;}
+.section h2{color:#fff;padding:2px;}
+.clear {clear:both;}
+/*  MENU */
+a#mobMenuTrigger {position:fixed;top:2px;right:5px;z-index:9999;}
+.hamburger {
+	position:fixed;
+	top:20px;
+	right:20px;
+  width:75px;
+  margin:0 auto;
+    }
+
+  .line {
+    background-color:#33cccc;
+    width:40px;
+    height:5px;
+    margin:10px auto;
+    -webkit-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+    }
+
+.open .line{background-color:#000}
+
+.open .line:nth-child(1) {
+ -webkit-transform: translateY(20px) rotate(45deg);
+  -ms-transform:translateY(20px) rotate(45deg);
+   -o-transform: translateY(20px) rotate(45deg);
+ transform: translateY(20px) rotate(45deg);
+}
+
+.open .line:nth-child(2) {
+ opacity:0;
+}
+
+.open .line:nth-child(3) {
+  -webkit-transform: translateY(-10px) rotate(-45deg);
+  -ms-transform:translateY(-10px) rotate(-45deg);
+   -o-transform: translateY(-10px) rotate(-45deg);
+ transform: translateY(-10px) rotate(-45deg);
+}				
+nav {margin:0 auto;background-color:#fff;opacity:0.9;text-align:center;width:100%;position:fixed;top:0px;left:0;z-index:9998;}	
+nav li{padding:10px;margin-top:5px;margin-bottom:5px;display:block;}			
+nav li a{color:#000;text-decoration:none;margin:5px;font-size:1.3em;}		
+nav li a:hover{text-shadow: 0px 0px 15px #fff;}		
+.hide {margin-top:-1000px;left:0px;-moz-transition:ease-in-out 0.6s;-webkit-transition:ease-in-out 0.6s;-o-transition:ease-in-out 0.6s;transition:ease-in-out 0.6s;height:50vh;}	
+.showNav {margin-top:0px;-moz-transition:ease-in-out 0.6s;-webkit-transition:ease-in-out 0.6s;-o-transition:ease-in-out 0.6s;transition:ease-in-out 0.6s;height:100vh;padding-top:50%;}	
+/*HOME - PAGE 1*/
+.hello h1 {margin-top:150px; font-size:1.8em;}
+/*----------ARROW*/
+#arw {background-image:url(../images/arrow100.png);
+background-position:center;
+background-size: cover;
+width:100px;
+height:100px;
+margin:0 auto;
+-webkit-animation: bounce 2s ease-in-out infinite;
+animation: bounce 2s ease-in-out infinite;
+}
+
+@keyframes bounce{ 
+	0%{-webkit-transform: translateY(0px); 
+		-moz-transform: translateY(0px); 
+		transform:translateY(0px); }
+		
+	50%{
+		-webkit-transform: translateY(10px); 
+		-moz-transform: translateY(10px); 
+		transform:translateY(10px); }
+		
+	100{-webkit-transform: translateY(0px); 
+		-moz-transform: translateY(0px); 
+		transform:translateY(0px); }
+ }	
+ 
+/*Projects- PAGE 2*/
+#projects {background:#33cccc;}
+
+.display {width: 80%;
+		background-color:#fff;
+		display:block;
+		margin:20px auto;
+		padding: 5px 0;
+		text-align:center;
+		}
+.wrap {	max-width:930px;
+		margin:0 auto;
+		padding: 10px 0;}
+		
+
+.object { display:inline-block;
+		width:99px;
+		height:99px;
+		margin: 10px;
+		border:3px #33cccc solid;
+		vertical-align:top;
+		}
+#supermario {background:url(../images/portfolio/mobile/supermario_100.jpg) no-repeat;}
+#hove {background:url(../images/portfolio/mobile/hove_100.jpg) no-repeat;}
+#ellinor {background:url(../images/portfolio/mobile/ellinor_100.jpg) no-repeat;}
+#anne{background:url(../images/portfolio/mobile/anne_100.jpg) no-repeat;}
+#tumblr {background:url(../images/portfolio/mobile/tumblr_100.jpg) no-repeat;}
+#bootstrap{background:url(../images/portfolio/mobile/bootstrap_100.jpg) no-repeat;}
+
+
+.title {display:block; width:100px;background-color:#fff; margin-top:50px;}
+
+.text {display:none;}
+		
+.title p {font-size:0.8em;color:black;padding:2%;}
+
+.display h3 {padding:2%; color:black;}
+.display a {color:black;}
+.display a:hover { color:#33cccc;}
+
+
+
+/*ABOUT - PAGE 3*/	
+#about {overflow:hidden;background-image:url(../images/bg/mob_flyhigh_bg.jpg);background-size:cover;}
+.profile {display:inline-block;background-image:url(../images/zara.jpg);background-position:top;border-radius:100px;-moz-border-radius:100px;-webkit-border-radius:100px;-o-border-radius:100px;width:200px;height:200px;}
+.lang {display:none;}
+.cv {display:block;width:90%;background-color:#FFF;margin:0 auto;padding:0px;text-align:center;border-top:3px solid #33cccc;border-bottom:3px solid #33cccc;margin-top:10px;}
+.cv p{padding:5px 2%;line-height:1.2em; margin-bottom:5px;}
+.cv h3 {display:none;}
+.cv a {padding:5px 1%; font-size: 0.8em; background-color: #33cccc; color:white; text-decoration: none; }
+/*CONTACT - PAGE 4*/	
+#sayhello {background-color:#33cccc;}
+#sayhello h2 {color:#fff;}
+.contactform {margin: 20px auto; padding:20px 3%; width:80%; border:5px solid #6ab;background-color:#fff;font-size:1.1em;}
+form p, label{padding:5px;color:black;}
+label.error { display:block;color:black;font-size:0.8em;padding:5px;padding-left:15px;}
+.input, .textBox {background-color:rgba(52,211,232,0.1);padding:10px;}
+textarea {resize:none;height:80px;}	
+.btn {font-size:1.1em; padding:5px;cursor: pointer;}
+/*Social media*/
+.fixedsocial {text-align:center; width:80%;margin:0 auto;}
+.sm {width:60px;height:40px;display:inline-block;}	
+#tw {background-image:url(../images/sm/sm.png);background-position: 3px 40px;cursor:pointer;}	
+#ldin {background-image:url(../images/sm/sm.png);background-position: 255px 40px;cursor:pointer;}		
+#gplus {background-image:url(../images/sm/sm.png);background-position: 153px 40px;cursor:pointer;}	
+#in {background-image:url(../images/sm/sm.png);background-position: 103px 40px;cursor:pointer;}		
+/*Footer*/ 	
+footer {height:20px;width:100%;background-color:#FFF;position:fixed;bottom:0;opacity:0.7;}
+footer p{font-size:0.8em;}
+
+/*MEDIA QUERY*/
+@media only screen and (min-width:600px){
+	.text p {font-size:0.9em;}
+	a#mobMenuTrigger {font-size:3em;}
+	#supermario {background:url(../images/portfolio/supermario_300.jpg)}
+#hove {background:url(../images/portfolio/hove_300.jpg)}
+#ellinor {background:url(../images/portfolio/ellinor_300.jpg)}
+#anne{background:url(../images/portfolio/anne_300.jpg)}
+#tumblr {background:url(../images/portfolio/tumblr_300.jpg);}
+#bootstrap{background:url(../images/portfolio/bootstrap_300.jpg)}
+
+.display h3 {padding:1%;}
+.display a {text-decoration:none;}
+.display a:hover {text-decoration:underline;}
+}
+
+
+/*MEDIA QUERY*/
+@media only screen and (min-width:800px){
+.hamburger {top:0px;}
+.open .line{background-color:#fff}		
+nav li{padding:10px;margin-top:10px;margin-bottom:5px;display:inline-block;}		
+nav li a {color:#fff;}
+.hide {margin-top:-1000px;left:0px;-moz-transition:ease-in-out 0.6s;-webkit-transition:ease-in-out 0.6s;-o-transition:ease-in-out 0.6s;transition:ease-in-out 0.6s;height:40px;}
+.showNav {margin-top:0px;-moz-transition:ease-in-out 0.4s;-webkit-transition:ease-in-out 0.4s;-o-transition:ease-in-out 0.4s;transition:ease-in-out 0.4s;height:60px;background-color:#33cccc;padding-top:0;}
+.section h2 {font-size:2.3em;padding:5px;}	
+/*HOME - PAGE 1*/	
+.hello h1 {margin-top:300px; font-size:1.8em;}
+
+ /* Waypoints */
+
+ .trigger {
+	width:100%;
+	height:1px;
+	background-color:transparent;
+	position:absolute;
+	top:350px;
+	left:0px;
+		}
+
+	 .trigger2 {
+	width:100%;
+	height:1px;
+	background-color:transparent;
+	position:absolute;
+	top:450px;
+	left:0px;
+		}		
+
+  .height{
+	  position:fixed;
+	top:0;
+	left:0; right:0;
+  }
+  .go{
+	opacity:0;
+	-webkit-transition:linear 0.5s;
+	-moz-transition:linear 0.5s;
+	-o-transition:linear 0.5s;
+	transition:linear 0.5s;
+	}	
+/*PROJECTS - PAGE 2*/
+
+
+.object {display:inline-block;
+		width:200px;
+		height:150px;
+		border:none;
+		margin:5px;
+		}
+
+.title{display:none;width:200px;height:50px; margin:0; padding-top:0;}
+.title p{font-size:1em; padding-top:10px; background-color:white;}
+
+.text {	display:none;width:200px;height:100px; margin:0;background-color:#33cccc; padding:0;}
+		
+.text p {padding:2%;color:white;line-height:1.5em; font-size:1em;}
+
+#supermario:hover .title, #hove:hover .title, #ellinor:hover .title, #anne:hover .title, #tumblr:hover .title, #bootstrap:hover .title {	
+		display:block;
+		}
+#supermario:hover .text, #hove:hover .text, #ellinor:hover .text, #anne:hover .text, #tumblr:hover .text, #bootstrap:hover .text{	
+		display:block;
+		}
+
+		
+/*ABOUT - PAGE 3*/ 
+#about {overflow:hidden;background-image:url(../images/bg/flyhigh_bg.jpg);background-position:top;background-attachment:fixed;background-size:cover;}
+#about h2{color:white;}
+.profile {display:inline-block;background-image:url(../images/zara.jpg);background-position:top;background-repeat:no-repeat;border-radius:0;-moz-border-radius:0;-webkit-border-radius:0;-o-border-radius:0;background-color:#33cccc;border:#33cccc 5px solid;vertical-align:middle;}
+.lang h3, .code h3{font-size:1em;margin:10px 0px;font-weight:bold;}	
+.lang p {font-size:0.8em;margin:5px 1%;color:#fff;}	
+.lang { width: 130px; height: 110px; background: #33cccc;  position: relative;-moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px;display:inline-block;margin-left:10px;padding-top:10px;color:#fff; vertical-align:middle;} 
+.lang:before { content:""; position: absolute; right: 100%; top: 26px;width: 0; height: 0; border-top: 13px solid transparent; border-right: 26px solid #33cccc; border-bottom: 13px solid transparent; } 
+.cv {display:inline-block;width:250px;background-color:#fff;color:#0CC;margin:10px;padding:10px;border:none;vertical-align:middle;}
+.cv p{padding:5px;line-height:1.5em;font-size:0.9em;text-align:left;margin-bottom:10px;}
+.cv h3 {display:block;font-size:1em;margin:10px 5px;font-weight:bold; }
+.cv a {padding:10px 1%;}
+/* SAY HELLO */	
+.contactform {width:50%}
+/*SOCIAL MEDIA*/
+.fixedsocial {text-align:center; width:400px;}
+.sm {width:60px;height:40px;display:inline-block;}	
+#tw:hover{background-position: 3px -10px;}
+#ldin:hover{background-position: 255px -10px;}
+#gplus:hover{background-position: 153px -10px;}
+#in:hover{background-position: 103px -10px;}
+} /*END OF MEDIA QUERY +600 PX*/
+
+@media only screen and (min-width:1200px){
+	.object {
+		width:300px;
+		height:200px;
+		float:left;
+		}
+		
+		.title{width:300px;height:50px;}
+
+.text {	display:none;width:300px;height:150px; }
+}

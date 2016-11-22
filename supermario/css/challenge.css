@@ -1,0 +1,392 @@
+
+/* CSS Document */
+
+@import url("normalize.css");
+@import url(http://fonts.googleapis.com/css?family=Glegoo:700);
+@import url(http://fonts.googleapis.com/css?family=Comfortaa);
+
+
+/*KEYFRAMES =================================*/	
+
+
+
+
+body {
+	background-image:url(../images/supermario_bg.jpg);
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+	background-size:cover;
+	width:100%;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	}
+	
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Glegoo', serif;
+	margin:10px;
+	}		
+	
+a, a:hover, a:visited {
+	text-decoration:none;}	
+	
+#page {
+	width:800px;
+	margin:0 auto;
+	}	
+	
+header {
+	height:70px;
+	background-color:rgba(0,0,51,1);
+	}
+	
+header img {
+	margin-left:50px;
+	padding-top:10px
+	}	
+	
+nav { 
+	float:right;
+	margin-top:5px;
+	margin-bottom:5px;
+	}	
+	
+nav ul{
+	list-style: none;
+	}
+	
+nav li{
+	display:inline-block;
+	padding:10px;
+	margin:5px;
+	}	
+		
+	
+nav li a {
+	font-family: 'Comfortaa', cursive;
+	color:#fff;
+	padding:10px;
+	}	
+	
+nav li a:visited {
+	color:#fff;
+	}		
+	
+nav li a:hover {
+	color:rgba(255,255,255,0.5)
+	}	
+	
+.clearfix {
+	clear:both;}		
+	
+#image {
+	background-image:url(../images/sm_family.jpg);
+	height:100px;
+	margin-top:10px;
+	}	
+
+	
+h1 {
+	line-height:100px;
+	margin-left:20px;
+	color:#fff;
+	}
+	
+#container {
+	overflow:hidden;
+	}	
+	
+	
+main {
+	display:block;
+	width:598px;
+	background-color:#fff;
+	float:left;
+	margin-top:10px;
+	padding-bottom:2000px;
+	margin-bottom:-2000px;
+	margin-right:12px;
+	}	
+	
+main h2 {
+	font-size:120%;
+	margin:10px;
+	}		
+	
+main p {
+	font-size:80%;
+	padding:10px;
+	}	
+	
+.vline {
+	border-right:1px solid #000;
+	padding-bottom:2000px;
+	margin-bottom:-2000px;
+	float:left;
+	margin-top:10px;
+	}	
+	
+	
+aside { 
+	display:block;
+	width:175px;
+	float:left;
+	background-color:#fff;
+	margin-top:10px;
+	margin-left:12px;
+	padding-bottom:2000px;
+	margin-bottom:-2000px;
+	text-align:center;
+	}	
+	
+aside h3 {
+	font-size:110%;
+	margin:10px;
+	}
+
+ aside p {
+	padding:10px;
+	font-size:70%;
+	text-align:left;
+	}
+	
+	
+/*ROTATE YOSHI EGG IMAGE*/
+
+
+.rotate:hover {
+	-webkit-animation: rotate 2s infinite;
+	animation: rotate 2s 1;
+	cursor:pointer;
+	}
+	
+@-webkit-keyframes rotate {
+	100%{-webkit-transform: rotate(360deg);}
+	}		
+	
+@keyframes rotate {
+	100%{-webkit-transform: rotate(360deg); transform: rotate(360deg);}
+	}	
+	
+/*---///YOSHI EGG ----------*/	
+	
+	
+#wrap { /*to make the boxes same height*/
+	overflow:hidden;
+	}		
+	
+.minibox{
+	background-color:#FFF;
+	float:left;
+	width:190px;
+	margin-right:10px;
+	margin-top:10px;
+	padding:5px;
+	box-sizing:border-box;
+	padding-bottom:2000px;
+	margin-bottom:-2000px;
+	}	
+	
+	.minibox ul {
+	list-style:none;
+	margin:0;
+	padding:0
+	}		
+	
+	.minibox li {
+	margin:10px
+	}		
+	
+	
+	 .minibox a {
+	font-size:11px;
+	text-decoration:none;
+	color:#009;
+	}	
+	
+	.minibox a:hover {
+	text-decoration:underline;
+	color:#000;
+	}	
+	
+	
+.box {
+	background-color:#FFF;
+	float:left;
+	width:400px;
+	margin-top:10px;
+	padding:5px;
+	text-align:center;
+	box-sizing:border-box;
+	padding-bottom:2000px;
+	margin-bottom:-2000px;
+	}	
+
+.ch {width:60px;
+	height:100px;
+	display:inline-block;
+	margin-top:10px;}
+
+#mario:hover {
+	background-image:url(../images/character.png);
+	background-position:240px 0px;
+	}
+	
+#mario {
+	background-image:url(../images/character.png);
+	background-position:240px -112px;
+	}	
+	
+#yoshi:hover  {
+	background-image:url(../images/character.png);
+	background-position:120px 0px;
+	}
+	
+#yoshi {
+	background-image:url(../images/character.png);
+	background-position:120px -112px;
+	}	
+
+#princess:hover {
+	background-image:url(../images/character.png);
+	background-position:0px 0px;
+	}
+	
+#princess {
+	background-image:url(../images/character.png);
+	background-position:0px -112px;
+	}	
+	
+#goomba:hover {
+	background-image:url(../images/character.png);
+	background-position:179px 0px;
+	}
+	
+#goomba {
+	background-image:url(../images/character.png);
+	background-position:179px -111px;
+	}	
+	
+#toad:hover {
+	background-image:url(../images/character.png);
+	background-position:60px 0px;
+	}
+	
+#toad {
+	background-image:url(../images/character.png);
+	background-position:60px -112px;
+	}		
+	
+footer {
+	background-color:rgba(0,0,51,1);
+	padding:10px;
+	margin-top:10px;
+	}	
+	
+footer p {
+	text-align:center;
+	color:#fff;
+	font-size:50%;
+	}	
+	
+	
+	/*SOCIAL MEDIA BUTTONS ========================================== */
+	
+.fixedsocial {
+		text-align:center; /*BECAUSE IM USING DISPLAY INLINE BLOCK*/
+	}
+	
+.sm {
+	width:50px;
+	height:50px;
+	display:inline-block
+	}	
+	
+
+@-webkit-keyframes spinright { 
+0% { -webkit-transform: rotate(0deg); }
+50% { -webkit-transform: rotate(30deg); }
+100% { -webkit-transform: rotate(0deg); } }
+
+@keyframes spinright { 0% { -webkit-transform: rotate(0deg); transform:rotate(0deg)}
+50% { -webkit-transform: rotate(30deg); transform:rotate(30deg) }
+100% { -webkit-transform: rotate(0deg); transform:rotate(0deg)} }
+
+@-webkit-keyframes spinleft { 
+0% { -webkit-transform: rotate(0deg); }
+50% { -webkit-transform: rotate(-30deg); }
+100% { -webkit-transform: rotate(0deg); } }
+
+@keyframes spinleft { 0% { -webkit-transform: rotate(0deg); transform:rotate(0deg)}
+50% { -webkit-transform: rotate(-30deg); transform:rotate(-30deg) }
+100% { -webkit-transform: rotate(0deg); transform:rotate(0deg)} }	
+	
+
+
+#fb {
+	background-image:url(../images/sm/sm_image.png);
+	background-position: 3px 0px;
+	}	
+	
+#fb:hover {
+	background-image:url(../images/sm/sm_image.png);
+	background-position: 2px -57px;
+	cursor:pointer;
+	-webkit-animation:spinright 1s linear ;
+    animation:spinright 1s linear;
+	}		
+		
+#tw {
+	background-image:url(../images/sm/sm_image.png);
+	background-position: 50px 0px;
+	}		
+	
+#tw:hover {
+	background-image:url(../images/sm/sm_image.png);
+	background-position: 49px -57px;
+	cursor:pointer;
+	-webkit-animation:spinleft 1s linear ;
+    animation:spinleft 1s linear;
+	}		
+	
+#in {
+	background-image:url(../images/sm/sm_image.png);
+	background-position: 150px 0px;
+	}		
+	
+#in:hover {
+	background-image:url(../images/sm/sm_image.png);
+	background-position: 149px -57px;
+	cursor:pointer;
+	-webkit-animation:spinright 1s linear ;
+    animation:spinright 1s linear;
+	}	
+	
+	
+#pin {
+	background-image:url(../images/sm/sm_image.png);
+	background-position: -50px 0px;
+	}		
+	
+#pin:hover {
+	background-image:url(../images/sm/sm_image.png);
+	background-position: -51px -57px;
+	cursor:pointer;
+	-webkit-animation:spinleft 1s linear ;
+    animation:spinleft 1s linear;
+	}				
+		
+#guy {
+	background-image:url(../images/sm/sm_image.png);
+	background-position: 98px 0px;
+	}		
+	
+#guy:hover {
+	background-image:url(../images/sm/sm_image.png);
+	background-position: 97px -57px;
+	cursor:pointer;
+	-webkit-animation:spinright 1s linear ;
+    animation:spinright 1s linear;
+	}			
+
+
+	
