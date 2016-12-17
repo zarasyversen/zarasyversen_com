@@ -21,7 +21,7 @@ a#mobMenuTrigger {position:fixed;top:2px;right:5px;z-index:9999;}
     }
 
   .line {
-    background-color:#33cccc;
+    background-color:#000;
     width:40px;
     height:5px;
     margin:10px auto;
@@ -78,7 +78,7 @@ animation: bounce 2s ease-in-out infinite;
 		-moz-transform: translateY(10px); 
 		transform:translateY(10px); }
 		
-	100{-webkit-transform: translateY(0px); 
+	100%{-webkit-transform: translateY(0px); 
 		-moz-transform: translateY(0px); 
 		transform:translateY(0px); }
  }	
