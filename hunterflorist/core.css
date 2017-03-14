@@ -1,0 +1,184 @@
+
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+	background-color: #A445B2;
+	background-image: linear-gradient(-225deg, #A445B2 0%, #D41872 52%, #FF0066 100%);
+	color:#333;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.7em;
+}
+
+h1, h2, h3 {
+	font-family: 'Bitter', serif;
+}
+
+h2, h3 {
+	padding:0 10px;
+}
+
+h1	{font-size:2.5em;}
+h2 {font-size: 2em;}
+h3 {font-size: 1.5em; }
+
+p {
+	padding:0px 10px 10px 10px;
+}
+.wrapper {
+	overflow: hidden;
+}
+
+/*HEADER */
+
+.top-bar {
+	width:100%;
+	max-width:1600px;
+	margin:0 auto;
+	padding-top:20px;
+}
+
+header {
+	margin:0 auto;
+	width:80%;
+}
+
+header h1{
+	margin:10px;
+}
+
+header p{
+	color:white;
+	text-align: left;
+}
+
+.logo {
+	padding-left:5px;
+}
+
+
+.logo-a {
+	color:white;
+	text-shadow: none;
+	transition: 0.4s;
+}
+
+.logo-a:hover {
+	text-shadow:2px 2px black;
+	text-decoration: none;
+	color:white;
+}
+
+
+/*-- CONTAINER --*/
+
+.container {
+	margin-bottom:50px;
+	width:80%;
+	max-width:1200px;
+    box-sizing: border-box;
+}
+
+/* MAIN / ASIDE */ 
+
+.wrap-main {
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0px 1px 7px #3c0d2c
+}
+
+.main, .aside{
+	padding:20px;
+}
+
+
+.aside img {
+	margin:15px;
+}
+
+
+/*BOTTOM IMG */
+
+.bottom-img {
+	margin-top:20px;
+}
+
+.bottom-img img {
+	margin:0 auto;
+	border-radius: 5px;
+	border:10px solid white;
+	box-shadow: 0px 1px 7px #3c0d2c
+}
+
+/*FOOTER */
+
+footer {
+	width:100%;
+	max-width:1600px;
+	margin:0 auto;
+	background:#333;
+	color:white;
+	min-height: 200px;
+}
+
+footer h3 {
+	padding:0;
+}
+
+.map, .contact {
+	padding:20px 10%;
+}
+
+.map iframe {
+	padding-top:5px;
+	border:none;
+	width:100%;
+}
+
+.contact p {
+	padding:5px 0;
+	margin:0;
+}
+
+.contact a {
+	color:white;
+}
+
+.contact a:hover {
+	color:rgba(212, 24, 114, 1);
+}
+
+.social {
+	margin-top:15px;
+}
+
+.social a{
+	font-size: 2.5em;
+	color:rgba(212, 24, 114, 0.7);
+	margin-right:15px;
+}
+
+.social a:hover {
+	color:rgba(212, 24, 114, 1);
+}
+
+
+/*----MEDIA QUERIES ---*/
+
+@media only screen and (max-width: 786px) {
+
+	.container {
+		width:95%;
+	}
+
+	.aside img {
+		max-width: 80%;
+		margin:0 auto;
+	}
+
+	.bottom-img img {
+		margin: 0 auto;
+	}
+
+}
+
