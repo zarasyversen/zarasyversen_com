@@ -9,193 +9,238 @@
 <meta property="fb:admins" content="100000463574872" />
 <meta property="og:site_name" content="Zara Syversen - Web design portfolio" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://www.zarasyversen.com" />
-<meta property="og:image" content="http://www.zarasyversen.com/assets/images/zara.jpg" />
+<meta property="og:url" content="https://www.zarasyversen.com" />
+<meta property="og:image" content="https://www.zarasyversen.com/assets/images/zara.JPG" />
 <meta property="og:title" content="Zara Syversen | Brighton" />
 <meta property="og:description" content="Web design portfolio for Zara Syversen, Swedish front-end developer in Brighton" />
-<link rel="icon" type="image/ico" href="http://zarasyversen.com/favicon.ico" />
+<link rel="icon" type="image/ico" href="https://zarasyversen.com/favicon.ico" />
 <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
-<link rel="stylesheet" type="text/css" href="assets/css/core.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 
 <!-- G ANALYTICS -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-71977702-1', 'auto');
   ga('send', 'pageview');
-
 </script>
-
 
 </head>
 
 <body>
 
-<div id="header">
-
-<a href="#menu" id="mobMenuTrigger">
-  		<div class="hamburger">
-    <div class="line"></div>
-    <div class="line"></div>
-    <div class="line"></div>
-  </div> <!-- end hamburger -->
-		</a>
-        <nav>
-        	<ul id="mobMenu" class="hideMenu">
-            	<li><a href="#home" class="menuHide">HOME</a></li>
-            	<LI><a href="#projects" class="menuHide">PROJECTS</a></LI>
-                <li><a href="#about" class="menuHide">ABOUT</a></li>
-                <li><a href="#sayhello" class="menuHide">SAY HELLO</a></li>
-            </ul>
-        </nav>
-
-</div><!-- end header-->
-
-<div id="container">
-	<div class="section" id="home">
-        <div class="hello">
-       		<h1>Hi there! My name is Zara.</h1>
-        </div>
-        <a href="#projects"><div id="arw" class="arrow"></div></a>
+  <div id="header">
+    <a href="#menu" id="mobMenuTrigger">
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div> <!-- end hamburger -->
+    </a>
+    <nav class="main-menu">
+      <ul id="mobMenu" class="hideMenu">
+        <li>
+          <a href="#home" class="menuHide">HOME</a>
+        </li>
+        <li>
+          <a href="#projects" class="menuHide">PROJECTS</a>
+        </li>
+        <li>
+          <a href="#about" class="menuHide">ABOUT</a>
+        </li>
+        <li>
+          <a href="#sayhello" class="menuHide">SAY HELLO</a>
+        </li>
+      </ul>
+    </nav>
+  </div><!-- end header-->
+  <div id="container">
+    <!--- PAGE // HOME -->
+    <div class="section" id="home">
+      <div class="hello">
+          <h1>Hi there! My name is Zara.</h1>
+      </div>
+      <div class="intro">
+          <p>I am an aspiring front-end developer living in Brighton. </p>
+      </div>
+      <div class="clearfix"></div>
     </div><!-- end home-->
-    <span class="trigger"></span>
-    <span class="trigger2"></span>
-    
-    
-	<div class="section" id="projects">
-    	<h2>Projects</h2>
-  		<div class="display">
-        <div class="wrap">
-        <a href="supermario/index.html" target="_blank"><div class="object" id="supermario"><div class="title"><p>Super Mario - CSS challenge.</p></div> <div class="text"><p>CSS3 animations with keyframes, image sprites, floats and overflow. (Desktop only)</p></div></div></a>
-        <a href="http://www.hovecollegestudentswork.com/students/web15-summer/zara/final/" target="_blank"><div class="object" id="hove"><div class="title"><p>Personal Project at Hove College</p></div><div class="text"><p>My first personal portfolio with it's own CMS!</p></div></div></a>
-        <a href="http://annelisehauge.com/" target="_blank"><div class="object" id="anne"><div class="title"><p>Artist website</p></div><div class="text"><p>Created a simple website for an artist in Norway.</p></div></div></a>
-        <a href="bootstrap/index.html" target="_blank"><div class="object" id="bootstrap"><div class="title"><p>Responsive website</p></div><div class="text"><p>Just an example website that works for all screens. First try with Bootstrap!</p></div></div></a>
-        <a href="http://www.ellinorhenriksson.se/" target="_blank"><div class="object" id="ellinor"><div class="title"><p>First website ever made!</p></div><div class="text"><p>This fugly little piece still remains the same and my client still loves it.</p></div></div></a>
-        <a href="http://zarasyversen.tumblr.com/" target="_blank"><div class="object" id="tumblr"><div class="title"><p>My Tumblr</p></div><div class="text"><p>Collection of my prints, graphics and photography</p></div></div></a>
-        <div class="clear"></div>
-        </div><!-- end wrap -->
-        <h3>More fun @ <a href="http://codepen.io/madebyzara/" target="_blank">Codepen</a>!</h3>
-        </div>
+    <!--- PAGE // PROJECTS -->
+    <div class="section" id="projects">
+      <div class="display-title">
+      <h2>Projects</h2>
+      </div>
+        <div class="display-projects">
+          <!-- PORTFOLIO ITEM -->
+          <div class="wrapping-project">
+            <a href="dashboard/index.html" target="_blank">
+              <div class="display-object" id="dashboard"></div>
+            </a>
+            <div class="display-info">
+              <div class="title">
+                <h3>Web App Product UI Design.</h3>
+              </div>
+              <div class="text">
+                <p>HTML/CSS/JS - Responsive - No Framework</p>
+                <p>I built a replica of <a href="https://dribbble.com/shots/1315388-Dashboard-Web-App-Product-UI-Design-Job-Summary" title="Mason Yarnell Dribbble" target="_blank">Mason Yarnell's design</a> for a web app product (found on Dribbble). This is a display of my CSS skills and I am very happy with the result. I started with desktop layout only but added some media queries to make it work for smaller devices as well. The button/links are #, besides the menu and search button (on mobile). </p>
+              </div>
+            </div><!-- display info-->
+          </div><!-- wrapping project -->
+          <div class="clearfix"></div>
+          <!-- PORTFOLIO ITEM -->
+          <div class="wrapping-project">
+            <a href="supermario/index.html" target="_blank">
+              <div class="display-object" id="supermario"></div>
+            </a>
+            <div class="display-info">
+              <div class="title">
+                <h3>Super Mario - CSS challenge.</h3>
+              </div>
+              <div class="text">
+                <p>HTML/CSS/JS - Responsive - No Framework</p>
+                <p>This project started as a CSS assignment at Hove College but the end result was a static one page site with a few CSS animations. I decided to make this project into a fully working, responsive website. I had a lot of fun with CSS animations here, try hover/tapping the different characters!</p>
+              </div>
+            </div><!-- display info-->
+          </div><!-- wrapping project -->
+          <div class="clearfix"></div>
+          <!-- PORTFOLIO ITEM -->
+          <div class="wrapping-project">
+            <a href="http://www.hovecollegestudentswork.com/students/web15-summer/zara/final/" target="_blank">
+              <div class="display-object" id="hove"></div>
+            </a>
+            <div class="display-info">
+              <div class="title">
+                <h3>Personal Project at Hove College.</h3>
+              </div>
+              <div class="text">
+                <p>HTML/CSS/jQuery/PHP/MySQL - Responsive - No Framework</p>
+                <p>My first portfolio was a project during my web design diploma. I created a bespoke CMS to upload new images to the "work" page and I was the second student ever to complete that at Hove College! </p>
+              </div>
+            </div><!-- display info-->
+          </div><!-- wrapping project -->
+          <div class="clearfix"></div>
+          <!-- PORTFOLIO ITEM -->
+          <div class="wrapping-project">
+            <a href="hunterflorist/index.html" target="_blank">
+              <div class="display-object" id="bootstrap"></div>
+            </a>
+            <div class="display-info">
+              <div class="title">
+                <h3>Hunter Florist</h3>
+              </div>
+              <div class="text">
+                <p>HTML/CSS - Responsive - Bootstrap</p>
+                <p>Remake of <a href="http://www.hunterflorist.co.uk/" target="_blank">Hunter Florist</a> in Kemptown. Better organised content, more visually appealing and user-friendly design.</p>
+              </div>
+            </div><!-- display info-->
+          </div><!-- wrapping project -->
+          <div class="clearfix"></div>
+          <!-- PORTFOLIO ITEM -->
+          <div class="wrapping-project">
+            <a href="http://www.ellinorhenriksson.se/" target="_blank">
+              <div class="display-object" id="ellinor"></div>
+            </a>
+            <div class="display-info">
+              <div class="title">
+                <h3>Ellinor Henriksson</h3>
+              </div>
+              <div class="text">
+                <p>HTML/CSS/jQuery - No Framework</p>
+                <p>This is the first website I ever built, for a Swedish artist (and my neighbour) Ellinor Henriksson to display her artwork. Made back in 2008 and I update content on request.</p>
+              </div>
+            </div><!-- display info-->
+          </div><!-- wrapping project -->
+        </div><!-- end display-objects -->
+        <div class="clearfix"></div>
     </div> <!-- end projects-->
+    <!--- PAGE // ABOUT -->
+    <div class="section" id="about">
+      <div class="profile-image">
+      <!--image added in CSS -->
+      <img src="assets/images/zara_op.jpg" alt="Zara" />
+      </div>
+      <div class="profile-facts">
+        <div class="profile-text">
+          <h2>About Zara</h2>
+        <p>Coding makes me happy so I am pursuing a career as a front-end developer.</p><p>Over the last year, I have used my spare time to learn about the field and develop my skills in web development. I have used online resources, tutorials like <a title="JavaScript30 by Wes Bos" href="https://javascript30.com/" target="_blank">#JavaScript30</a> and I have spent my Tuesday evenings at <a href="https://codebar.io/" target="_blank" title="Codebar">Codebar</a> in Brighton. </p><p> The love and support I have received over this last year has been amazing and I am eager to start giving back some love.</p>
+        </div><!--profile text-->
+      </div>
+      <div class="clearfix"></div>
+    </div><!-- end about-->
     
-    
-     <div class="section" id="about">
-    	<h2>About</h2>
-         <div class="profile"></div>
-        <div class="lang">
-        <h3>I speak</h3><p>Native: Swedish</p><p>Fluent: English</p><p>Fluent: Norwegian</p><p>Basic: Spanish</p></div>
-        <div class="cv"><h3>On the pursuit of happiness</h3><p>I was raised in the Swedish forests (by parents, not wolves) but always been in love with city lights and busy streets. I moved from home when I was 16 and I have lived in Sweden, USA, Norway and currently loving life in Brighton, England.</p><p>I love code and design!</p><a href="http://cv.zarasyversen.com/" target="_blank">You can find my CV here</a> </div>
-</div><!-- end about-->
-    
-    <div class="section" id="sayhello">
-    	<h2>Say hello!</h2>
-         <div class="contactform">
-        <form action="contactmail.php" method="post" name="contactForm" id="contactForm">
-         <p><label for="name"> Your name</label></p><p><input type="text" name="name" id="name" class="input" required></p>
-          <p><label for="email">Your email</label></p><p><input type="email" name="email" id="email" class="input" required></p>
-             <p><label for="comment">Message:</label></p><p>
-             <textarea name="comment" id="comment" class="textBox" required></textarea></p>
-             <p><button id="submit" class="btn">Send it!</button></p>
-        </form></div><!-- end contactform-->
-        <div class="fixedsocial">
-<div class="sm" id="tw" onClick="window.open('https://twitter.com/madebyzara')">
-</div> <!--tw-->
-<div class="sm" id="ldin" onClick="window.open('https://uk.linkedin.com/in/zara-syversen-7406ab85')">
-</div> <!--ldin-->
-<div class="sm" id="gplus" onClick="window.open('https://plus.google.com/102597776938087734909')">
-</div> <!--gplus-->
-<div class="sm" id="in" onClick="window.open('http://www.instagram.com/zarasyversen')">
-</div> <!--in-->
-</div><!--fixedsocial--> 
+    <footer id="sayhello">
+      <div class="social-icons">
+        <a href="https://twitter.com/madebyzara" target="_blank">
+          <div class="sm" id="tw"></div>
+        </a>
+        <a href="http://codepen.io/madebyzara/" target="_blank">
+          <div class="sm" id="cp"></div>
+        </a>
+        <a href="https://github.com/zarasyversen" target="_blank">
+          <div class="sm" id="gt"></div>
+        </a>
+        <a href="https://uk.linkedin.com/in/zara-syversen-7406ab85" target="_blank">
+          <div class="sm" id="li"></div>
+        </a>
+      </div>
+        <p>zarasyversen at gmail dot com</p>
+      <div class="copyright">
+        <p>Copyright 2017 © Zara Syversen</p>
+      </div>
+    </footer>
+  </div><!-- end container --> 
 
-    </div> <!-- end sayhello-->
-    
-   <footer><p>Copyright 2016 © Zara Syversen</footer> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> <!--Normal jQuery library-->
+  <script>
 
-</div><!-- end container --> 
+  //HAMBURGER ANIMATION 
+    $(document).ready(function(){
+      $(".hamburger").click(function(){
+        $(this).toggleClass("open");
+      });
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> <!--Normal jQuery library-->
-<script src="assets/js/jquery.waypoints.js"></script>
-<script>
+      $('#mobMenu li a').click(function(){
+        $('.hamburger').toggleClass("open");
+      });
+    });
 
-//HAMBURGER ANIMATION 
-$(document).ready(function(){
-  $(".hamburger").click(function(){
-    $(this).toggleClass("open");
-  });
+  //MOBILE MENU - HIDE AND SHOW
+    $(document).ready(function(){
+      $('#mobMenu').hide(0);
+      $('#mobMenu').addClass('hide').delay(0).show(0);
+      //adding hide class when page loads in case of no js 
 
-  $('#mobMenu li a').click(function(){
-    $('.hamburger').toggleClass("open");
-  });
-});
+      $('#mobMenuTrigger').click(function(){
+        $('#mobMenu').toggleClass("showNav"); 
+        
+      });
+      
+      $('.menuHide').click(function(){
+        $('.hideMenu').toggleClass('showNav');
+      });
 
-//MOBILE MENU - HIDE AND SHOW
+        return false
+        
+    })
 
-$(document).ready(function(){
-	$('#mobMenu').hide(0);
-	$('#mobMenu').addClass('hide').delay(0).show(0);
-	
-	
-	$('#mobMenuTrigger').click(function(){
-		$('#mobMenu').toggleClass("showNav"); 
-		
-		});
-	
-	$('.menuHide').click(function(){
-		$('.hideMenu').toggleClass('showNav');
-		});
-
-		return false
-		
-		
-})
-
-//PAGE SECTIONS SCROLL EFFECT 
-//http://breezi.com/how/smooth-scrolling-effect/
-
-$(function () {
-
-$('a[href^="#"]').click(function(event) {
-var id = $(this).attr("href");
-var offset = 20;
-var target = $(id).offset().top - offset;
-
-$('html, body').animate({scrollTop:target}, 500);
-event.preventDefault();
-});
-
-});
-
-//-------BOUNCE BUTTON 
-
-
-
-$(function(){
-//	$('#arw').waypoint(function(){
-//		$('#arw').toggleClass('go');
-//		
-//	});
-	
-	$('.trigger').waypoint(function(){
-		$('#arw').toggleClass('height');
-		
-		});
-		
-		$('.trigger2').waypoint(function(){
-		$('#arw').toggleClass('go');
-		
-		});
-	
-	});
-
-
-
-//----------------------------------------
-
-
-</script>
+//------ https://css-tricks.com/snippets/jquery/smooth-scrolling/
+    $(function() {
+      $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
+  </script>
 </body>
 </html>
