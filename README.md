@@ -7,4 +7,4 @@ This is my personal portfolio site as a (starting) front-end developer. Hope to 
 	Optimising page speed and UX
 
 
-#Let me know what you think! 
+# Let me know what you think! 
